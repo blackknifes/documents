@@ -11,8 +11,10 @@ https://electronjs.org/docs
 3.  使用cnpm 安装electron全局库 cnpm install -g electron
 
 *   nodejs第三方库查找与安装方法
-    全局库以electron为例:   cnpm install -g electron<br>
-    本地库以typescript为例: yarn add typescript<br>
+    全局库以electron为例:   
+        cnpm install -g electron<br>
+    本地库以typescript为例: 
+        yarn add typescript<br>
     
     安装多个库: <br>
         cnpm install -g [库1] [库2] ...<br>
