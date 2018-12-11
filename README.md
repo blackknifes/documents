@@ -11,30 +11,30 @@ https://electronjs.org/docs
 3.  使用cnpm 安装electron全局库 cnpm install -g electron
 
 *   nodejs第三方库查找与安装方法
-    全局库以electron为例:   cnpm install -g electron
-    本地库以typescript为例: yarn add typescript
+    全局库以electron为例:   cnpm install -g electron<br>
+    本地库以typescript为例: yarn add typescript<br>
     
-    安装多个库: 
-        cnpm install -g [库1] [库2] ...
-        yarn add [库1] [库2] ...
+    安装多个库: <br>
+        cnpm install -g [库1] [库2] ...<br>
+        yarn add [库1] [库2] ...<br>
     
-    安装开发库(不会被打包到最终代码中):
-        yarn add -D [库1] [库2] ...
+    安装开发库(不会被打包到最终代码中):<br>
+        yarn add -D [库1] [库2] ...<br>
     
 *   electron: Hello World示例
-    初始化一个项目:
-    mkdir helloworld && cd helloworld
-    yarn init -y
-    mkdir src
+    初始化一个项目:<br>
+    mkdir helloworld && cd helloworld<br>
+    yarn init -y<br>
+    mkdir src<br>
 
-    添加依赖库:
-    yarn add electron
+    添加依赖库:<br>
+    yarn add electron<br>
 
-    修改配置:
-    将package.json中的main属性 改为src/index.js
+    修改配置:<br>
+    将package.json中的main属性 改为src/index.js<br>
     
-    拷贝代码index.js 与 helloworld.html 到 src 目录下
-    在与package.json文件目录下执行命令行 electron .
+    拷贝代码index.js 与 helloworld.html 到 src 目录下<br>
+    在与package.json文件目录下执行命令行 electron .<br>
 
 *   文件结构：
     - src 源码目录
