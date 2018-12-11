@@ -6,9 +6,9 @@ http://nodejs.cn/api/
 *   electron文档
 https://electronjs.org/docs
 
-    1.安装nodejs http://nodejs.cn/
-    2.安装cnpm yarn作为库管理器 npm install -g cnpm yarn
-    3.使用cnpm 安装electron全局库 cnpm install -g electron
+1.  安装nodejs http://nodejs.cn/
+2.  安装cnpm yarn作为库管理器 npm install -g cnpm yarn
+3.  使用cnpm 安装electron全局库 cnpm install -g electron
 
 *   nodejs第三方库查找与安装方法
     全局库以electron为例:   cnpm install -g electron
