@@ -1,15 +1,16 @@
-###浏览器开发文档
+浏览器开发文档
 --------
 
 http://nodejs.cn/api/
-###electron文档
+
+*   electron文档
 https://electronjs.org/docs
 
     1.安装nodejs http://nodejs.cn/
     2.安装cnpm yarn作为库管理器 npm install -g cnpm yarn
     3.使用cnpm 安装electron全局库 cnpm install -g electron
 
-####nodejs第三方库查找与安装方法
+*   nodejs第三方库查找与安装方法
     全局库以electron为例:   cnpm install -g electron
     本地库以typescript为例: yarn add typescript
     
@@ -20,7 +21,7 @@ https://electronjs.org/docs
     安装开发库(不会被打包到最终代码中):
         yarn add -D [库1] [库2] ...
     
-####electron: Hello World示例
+*   electron: Hello World示例
     初始化一个项目:
     mkdir helloworld && cd helloworld
     yarn init -y
@@ -35,7 +36,7 @@ https://electronjs.org/docs
     拷贝代码index.js 与 helloworld.html 到 src 目录下
     在与package.json文件目录下执行命令行 electron .
 
-#####文件结构：
+*   文件结构：
 - src 源码目录
     - index.js
     - helloworld.html
@@ -43,7 +44,7 @@ https://electronjs.org/docs
 - yarn.lock 库版本锁定文件(需要git忽略)
 - node_modules 第三方本地库存放目录(需要git忽略)
 
-#####源码(使用javascript es6 规范):
+*   源码(使用javascript es6 规范):
 index.js
 ```javascript
 const path = require("path");   //path内置库
