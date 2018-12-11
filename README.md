@@ -37,12 +37,12 @@ https://electronjs.org/docs
     在与package.json文件目录下执行命令行 electron .
 
 *   文件结构：
-- src 源码目录
-    - index.js
-    - helloworld.html
-- package.json 项目工程配置
-- yarn.lock 库版本锁定文件(需要git忽略)
-- node_modules 第三方本地库存放目录(需要git忽略)
+    - src 源码目录
+        - index.js
+        - helloworld.html
+    - package.json 项目工程配置
+    - yarn.lock 库版本锁定文件(需要git忽略)
+    - node_modules 第三方本地库存放目录(需要git忽略)
 
 *   源码(使用javascript es6 规范):
 index.js
